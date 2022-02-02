@@ -1,2 +1,180 @@
-a{
+/*LISTA DE TODAS LAS CLASES DEL HTML. ALGUNAS CLASES NO HACE FALTA QUE SE ESTILEN*/
+/*LA LISTA ESTA ORGANIZA CON LAS FUENTES PRIMERO, ELEMENTOS DE USO COMUN SEGUNDO
+Y ELEMENTOS DEL DOCUMENTO EN ORDEN DESCENDENTE*/
+
+@font-face {
+	font-family: SFRegular;
+	src: url(/font/SFRegular.otf);
+}
+
+@font-face {
+	font-family: SFBold;
+	src: url(/font/SFBold.otf);
+}
+
+@font-face {
+	font-family: SFBlack;
+	src: url(/font/SFBlack.otf);
+}
+
+@font-face {
+	font-family: SFItalic;
+	src: url(/font/SFItalic.otf);
+}
+
+@font-face {
+	font-family: SFMovie;
+	src: url(/font/SFMovie.otf);
+}
+
+p{
+    font-family: SFRegular;
+}
+
+h2{
+    font-family: SFBold;
+}
+
+.h2_alt{
+    font-family: SFBold;
+}
+
+h3{
+    font-family: SFBold;
+}
+
+.h3_alt{
+    font-family: SFBold;
+}
+
+body{
+
+}
+
+nav{
+
+}
+
+.menu_y_redes_sociales{
+
+}
+
+.navegacion_y_busqueda{
+
+}
+
+.nav_izquierda{
+    
+}
+
+.nav_derecha{
+
+}
+
+.introduccion{
+
+}
+
+.imagen_con_cabezera{
+
+}
+
+.titulo_centrado{
+    font-family: SFBlack;
+}
+
+.secciones{
+
+}
+
+.proyectos{
+
+}
+
+.encabezado_alternativo{
+
+}
+
+.carousel{
+
+}
+
+.imagen_titulo_y_texto{
+
+}
+
+.botonera_y_mapa{
+
+}
+
+.botonera_y_mapa h2{
+
+}
+
+.contenedor_botones{
+
+}
+
+.buscador_tiendas{
+
+}
+
+.pestana{
+
+}
+
+.carousel_no_scrollable{
+
+}
+
+.imagen_titulo_y_texto_alt{
+
+}
+
+.quieres_vender_comercio_justo{
+
+}
+
+.flex_texto_y_imagen{
+
+}
+
+.info_izda{
+
+}
+
+.img_dcha{
+
+}
+
+.aportacion{
+
+}
+
+.pie_de_pagina{
+
+}
+
+.flex_tres_columnas{
+
+}
+
+.flex_uno{
+
+}
+
+.flex_dos{
+    
+}
+
+.flex_tres{
+    
+}
+
+.futuro{
+    font-family: SFRegular;
+}
+
+.pobreza{
+    font-family: SFBlack;
 }
