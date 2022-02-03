@@ -41,6 +41,12 @@ h2{
 	color: #63a816;
 }
 
+.info_izda h2{
+	font-family: SFBold;
+	font-size: 4vh;
+	color: #FFFFFF;
+}
+
 .h2_alt{
     font-family: SFBold;
 	font-size: 4vh;
