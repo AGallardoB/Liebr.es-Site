@@ -33,6 +33,11 @@ a{
 
 p{
     font-family: SFRegular;
+	font-size: 2vh;
+}
+
+.negrita{
+	font-family: SFBold;
 }
 
 h2{
@@ -69,8 +74,7 @@ body{
 nav{
 	width:100%;
 	display: block;
-	position:absolute;
-	height: 12vh;
+	height: 11vh;
 }
 
 .menu_y_redes_sociales{
@@ -92,6 +96,7 @@ nav{
 }
 
 .navegacion_y_busqueda{
+	margin-top:0px;
 	height: 8vh;
 	display: flex;
 	background-color: #24292e;
@@ -154,6 +159,7 @@ nav{
 }
 
 .proyectos{
+	width:100%;
 	margin:6vh;
 	background-color: #f8f8f8;
 }	
@@ -173,6 +179,7 @@ nav{
 }
 
 .botonera_y_mapa{
+	width:100%;
 	background-color: #ffffff;
 	margin:6vh;
 }
@@ -206,6 +213,7 @@ nav{
 }
 
 .secciones{
+	width:100%;
 	background-color: #f8f8f8;
 	margin:6vh;
 }
@@ -220,6 +228,7 @@ nav{
 }
 
 .quieres_vender_comercio_justo{
+	width:100%;
 	background-color: #63a816;
 	color: #ffffff
 }
@@ -241,7 +250,7 @@ nav{
 }
 
 .pie_de_pagina{
-
+	width:100%;
 }
 
 .flex_tres_columnas{
