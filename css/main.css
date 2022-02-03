@@ -75,7 +75,7 @@ nav{
 
 .menu_y_redes_sociales{
 	display: block;
-	height: 4vh;
+	height: 3vh;
 	text-align: right;
 	margin-top: auto;
 	margin-bottom: auto;
@@ -87,11 +87,12 @@ nav{
 .menu_y_redes_sociales a{
 	text-decoration: none;
 	color: #000000;
+	font-size:2vh;
 	margin-right: 1vh;
 }
 
 .navegacion_y_busqueda{
-	height: 8.5vh;
+	height: 8vh;
 	display: flex;
 	background-color: #24292e;
 }
@@ -193,7 +194,7 @@ nav{
 	font-family: SFMovie;
 	font-size: 3.5vh;
 	height:6vh;
-	margin-right:2vh;
+	margin-right:0px;
 	margin-left: auto;
 	padding: 2vh;
 	width: 40vh;
