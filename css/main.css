@@ -164,6 +164,10 @@ nav{
 .pestana{
 	background-color: #63a816;
 	color: #ffffff;
+	height:6vh;
+	margin-right:2vh;
+	margin-left: auto;
+	padding: 2vh;
 }
 
 .secciones{
