@@ -108,6 +108,7 @@ nav{
 .donativo{
 	height: 4vh;
 	margin: auto;
+	margin-right: 1vh;
 	padding: 2vh;
 	background-color: #e9730b;
 	transition: 0.3s;	
