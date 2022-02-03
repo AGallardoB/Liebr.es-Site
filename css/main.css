@@ -146,7 +146,8 @@ nav{
 }
 
 .imagen_titulo_y_texto{
-
+	background-color: #FFFFFF;
+	margin:2vh;
 }
 
 .botonera_y_mapa{
