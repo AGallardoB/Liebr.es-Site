@@ -147,8 +147,8 @@ nav{
 	font-size: 10vh;
 	color: #ffffff;
 	text-align: center;
-	margin-top: auto;
-	margin-bottom:auto;
+	display: inline-block;
+  	vertical-align: middle;
 }
 
 .proyectos{
