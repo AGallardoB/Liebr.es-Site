@@ -93,6 +93,7 @@ nav{
 .navegacion_y_busqueda a{
 	style: none;
 	color: #ffffff;
+	font-size: 5vh;
 	font-family: SFMovie;
 }
 
@@ -180,11 +181,13 @@ nav{
 .pestana{
 	background-color: #63a816;
 	color: #ffffff;
+	font-family: SFMovie;
+	font-size: 5vh;
 	height:6vh;
 	margin-right:2vh;
 	margin-left: auto;
 	padding: 2vh;
-	width: 96vh;
+	width: 64vh;
 }
 
 .secciones{
