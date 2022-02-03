@@ -144,12 +144,13 @@ nav{
 }
 
 .titulo_centrado{
-    font-family: SFBlack;
-	font-size: 10vh;
-	color: #ffffff;
-	text-align: center;
 	display: inline-block;
+	margin:auto;
+	text-align: center;
   	vertical-align: middle;
+	font-family: SFBlack;
+	font-size: 8vh;
+	color: #ffffff;
 }
 
 .proyectos{
