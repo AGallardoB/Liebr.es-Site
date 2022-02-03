@@ -14,7 +14,7 @@ Y ELEMENTOS DEL DOCUMENTO EN ORDEN DESCENDENTE*/
 
 @font-face {
 	font-family: SFBlack;
-	src: url(https://agallardob.github.io/RepositorioSGI/font/SFBlack.otf);
+	src: url(https://agallardob.github.io/RepositorioSGI/font/SFBlack.ttf);
 }
 
 @font-face {
@@ -24,7 +24,7 @@ Y ELEMENTOS DEL DOCUMENTO EN ORDEN DESCENDENTE*/
 
 @font-face {
 	font-family: SFMovie;
-	src: url(https://agallardob.github.io/RepositorioSGI/font/SFMovie.otf);
+	src: url(https://agallardob.github.io/RepositorioSGI/font/SFMovie.ttf);
 }
 
 a{
@@ -37,7 +37,7 @@ p{
 
 h2{
     font-family: SFBold;
-	font-size: 8vh;
+	font-size: 4vh;
 	color: #63a816;
 }
 
