@@ -37,6 +37,8 @@ p{
 
 h2{
     font-family: SFBold;
+	font-size: 8vh;
+	color: #63a816;
 }
 
 .h2_alt{
@@ -124,12 +126,16 @@ nav{
 
 .imagen_con_cabezera{
 	width:100%;
+	height:64vh;
 	background-color: #889988;
+
 }
 
 .titulo_centrado{
     font-family: SFBlack;
+	font-size: 10vh;
 	color: #ffffff;
+	margin:auto;
 }
 
 .proyectos{
@@ -138,7 +144,8 @@ nav{
 }	
 
 .encabezado_alternativo{
-
+	font-family: SFBold;
+	color: #e9730b;
 }
 
 .carousel{
