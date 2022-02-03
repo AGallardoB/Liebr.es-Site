@@ -85,7 +85,7 @@ nav{
 }
 
 .menu_y_redes_sociales a{
-	style: none;
+	text-decoration: none;
 	color: #000000;
 	margin-right: 1vh;
 }
@@ -97,9 +97,9 @@ nav{
 }
 
 .navegacion_y_busqueda a{
-	style: none;
+	text-decoration: none;
 	color: #ffffff;
-	font-size: 5vh;
+	font-size: 3.5vh;
 	font-family: SFMovie;
 }
 
@@ -118,6 +118,7 @@ nav{
 }
 
 .donativo{
+	text-decoration: none;
 	height: 4vh;
 	margin: auto;
 	margin-right: 1vh;
@@ -145,7 +146,8 @@ nav{
 	font-size: 10vh;
 	color: #ffffff;
 	text-align: center;
-	margin: auto;
+	margin-top: auto;
+	margin-bottom:auto;
 }
 
 .proyectos{
@@ -188,12 +190,16 @@ nav{
 	background-color: #63a816;
 	color: #ffffff;
 	font-family: SFMovie;
-	font-size: 5vh;
+	font-size: 3.5vh;
 	height:6vh;
 	margin-right:2vh;
 	margin-left: auto;
 	padding: 2vh;
-	width: 64vh;
+	width: 40vh;
+}
+
+.pestana p{
+	font-family: SFMovie;
 }
 
 .secciones{
