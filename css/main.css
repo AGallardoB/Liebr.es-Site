@@ -124,13 +124,16 @@ nav{
 
 .imagen_con_cabezera{
 	width:100%;
+	background-color: #889988;
 }
 
 .titulo_centrado{
     font-family: SFBlack;
+	color: #ffffff;
 }
 
 .proyectos{
+	margin:6vh;
 	background-color: #f8f8f8;
 }	
 
@@ -148,6 +151,7 @@ nav{
 
 .botonera_y_mapa{
 	background-color: #ffffff;
+	margin:6vh;
 }
 
 .botonera_y_mapa h2{
@@ -173,6 +177,7 @@ nav{
 
 .secciones{
 	background-color: #f8f8f8;
+	margin:6vh;
 }
 
 .carousel_no_scrollable{
@@ -181,6 +186,7 @@ nav{
 
 .imagen_titulo_y_texto_alt{
 	background-color: #e9730b;
+	margin:2vh;
 }
 
 .quieres_vender_comercio_justo{
