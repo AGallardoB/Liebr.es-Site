@@ -4,27 +4,27 @@ Y ELEMENTOS DEL DOCUMENTO EN ORDEN DESCENDENTE*/
 
 @font-face {
 	font-family: SFRegular;
-	src: url(/font/SFRegular.otf);
+	src: url(https://agallardob.github.io/RepositorioSGI/font/SFRegular.otf);
 }
 
 @font-face {
 	font-family: SFBold;
-	src: url(/font/SFBold.otf);
+	src: url(https://agallardob.github.io/RepositorioSGI/font/SFBold.otf);
 }
 
 @font-face {
 	font-family: SFBlack;
-	src: url(/font/SFBlack.otf);
+	src: url(https://agallardob.github.io/RepositorioSGI/font/SFBlack.otf);
 }
 
 @font-face {
 	font-family: SFItalic;
-	src: url(/font/SFItalic.otf);
+	src: url(https://agallardob.github.io/RepositorioSGI/font/SFItalic.otf);
 }
 
 @font-face {
 	font-family: SFMovie;
-	src: url(/font/SFMovie.otf);
+	src: url(https://agallardob.github.io/RepositorioSGI/font/SFMovie.otf);
 }
 
 a{
