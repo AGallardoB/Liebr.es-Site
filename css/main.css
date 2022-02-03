@@ -60,10 +60,12 @@ h2{
 
 h3{
     font-family: SFBold;
+	font-size: 2.5vh;
 }
 
 .h3_alt{
     font-family: SFBold;
+	font-size: 2.5vh;
 }
 
 body{
@@ -221,13 +223,15 @@ nav{
 .carousel_no_scrollable{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 .imagen_titulo_y_texto_alt{
 	background-color: #e9730b;
 	margin:2vh;
-	width:32vh;
+	margin-left:4vh;
+	margin-right:4vh;
+	width:48vh;
 	color: #ffffff;
 }
 
