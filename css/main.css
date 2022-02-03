@@ -219,12 +219,16 @@ nav{
 }
 
 .carousel_no_scrollable{
-
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 .imagen_titulo_y_texto_alt{
 	background-color: #e9730b;
 	margin:2vh;
+	width:32vh;
+	color: #ffffff;
 }
 
 .quieres_vender_comercio_justo{
