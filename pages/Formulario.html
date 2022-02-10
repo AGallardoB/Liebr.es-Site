@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS Ana-->
+    <link rel="stylesheet" href="https://agallardob.github.io/RepositorioSGI/css/main.css">
+
+    <title>Formulario</title>
+
+    <style>
+        main,body{
+            background-color: cornflowerblue;
+        }
+        h2{
+            color: white;
+        }
+        .sup1 {
+            /*caja como puedes...*/
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .labelform {
+            display: flex;
+        }
+
+        form {
+            /* Centrar el formulario en la página */
+            margin: 0 auto;
+            width: 400px;
+            /* Esquema del formulario */
+            padding: 1rem;
+            border: 5px solid #CCC;
+            border-radius: 1em;
+        }
+
+        ul {/*Lista ul*/
+            
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        li{/*Elemento Lista*/
+            
+            margin-top: 1em;
+
+        }
+        
+        label {
+            /* Tamaño y alineación uniforme */
+            display: inline-block;
+            width: 75px;
+            padding-right: 1rem;
+            text-align: right;
+        }
+
+        input{
+            
+            font: 1em sans-serif;
+            /* Tamaño uniforme del campo de texto */
+            width: 300px;
+            box-sizing: border-box;
+            border: 1px solid #999;
+        }
+        .cajatexto {
+          font: 1em sans-serif;
+            /* Tamaño uniforme del campo de texto */
+            width: 300px;
+            height: 150px;
+            box-sizing: border-box;
+            border: 1px solid #999;
+        }
+        pre{
+            text-align: center;
+        }
+        button{
+            height: 30px;
+            width: 200px;
+            margin-left: 25%;
+                
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    <!--CODIGO EXPORTADO DE GIT-->
+        <nav>
+            <div class="menu_y_redes_sociales">
+                <a href="#">Tienda Online</a>
+                <a href="#">Empleo</a>
+                <a href="#">Voluntariado</a>
+                <a href="#">Actualidad</a>
+                <a href="#">Contacta</a>
+                <a href="#"><img src="/img/facebook.png"></img></a>
+                <a href="#"><img src="/img/twitter.png"></img></a>
+                <a href="#"><img src="/img/youtube.png"></img></a>
+                <a href="#"><img src="/img/instagram.png"></img></a>
+                <a href="#"><img src="/img/linkedin.png"></img></a>
+            </div>
+
+            <div class="navegacion_y_busqueda">
+                <div class="nav_izquierda">
+                    <a href="#"><img src="/img/oxfamlogo.png"></img></a>
+                    <a href="#">QUÉ HACEMOS</a>
+                    <a href="#">QUIÉNES SOMOS</a>
+                    <a href="#">CÓMO PUEDES COLABORAR</a>
+                </div>
+                <div class="nav_derecha">
+                    <a href="#"><img src="/img/lupa.png"></img></a>
+                    <a href="#"><img src="/img/usuario.png"></img></a>
+                    <a class="donativo" href="#">HAZ UN DONATIVO</a>
+                </div>
+            </div>
+            <nav>
+    <!--FIN CODIGO-->
+    </header>
+
+    <main>
+        <div class="sup1">
+            <h2>¿Cómo puedes contactar con nosotros?</h2>
+        </div>
+
+        <!--Formulario-->
+        <form action="" method="post">
+            <pre>Rellena tus datos de contacto</pre>
+            <ul>
+                <li>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="user_name" placeholder="Nombre">
+                <li>
+                        <label for="name">Teléfono:</label>
+                        <input type="text" id="number" name="user_number" placeholder="600000000">
+                <li>
+                    <label for="name">Provincia:</label>
+                    <select id="province" name="">
+                        <option value="">Seleccione</option>
+                        <option value="A Coruña">A Coruña</option>
+                        <option value="Álaba">Álaba</option>
+                        <option value="Alicante">Alicante</option>
+                        <option value="Andorra">Andorra</option>
+                        <option value="Asturias">Asturias</option>
+                        <option value="Badajoz">Badajoz</option>
+                        <option value="Barcelona">Barcelona</option>
+                        <option value="Burgos">Burgos</option>
+                        <option value="Cádiz">Cádiz</option>
+                        <option value="Cantabria">Cantabria</option>
+                        <option value="Castellón">Castellón</option>
+                        <option value="Córdoba">Córdoba</option>
+                        <option value="Cuenca">Cuenca</option>
+                        <option value="Girona">Girona</option>
+                        <option value="Granada">Granada</option>
+                        <option value="Guadalajara">Guadalajara</option>
+                        <option value="Guipúzcoa">Guipúzcoa</option>
+                        <option value="Huelva">Huelva</option>
+                        <option value="Islas Baleares">Islas Baleares</option>
+                        <option value="La Rioja">La Rioja</option>
+                        <option value="Las Palmas">Las Palmas</option>
+                        <option value="León">León</option>
+                        <option value="Lleida">Lleida</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Málaga">Málaga</option>
+                        <option value="Murcia">Murcia</option>
+                        <option value="Navarra">Navarra</option>
+                        <option value="Pontevedra">Pontevedra</option>
+                        <option value="Salamanca">Salamanca</option>
+                        <option value="Sevilla">Sevilla</option>
+                        <option value="Tarragona">Tarragona</option>
+                        <option value="Toledo">Toledo</option>
+                        <option value="Valencia">Valencia</option>
+                        <option value="Valladolid">Valladolid</option>
+                        <option value="Vizcaya">Vizcaya</option>
+                        <option value="Zaragoza">Zaragoza</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" id="mail" name="user_mail" placeholder="correo@dominio.com">
+                </li>
+                <li>
+                    <label for="msg">Mensaje:</label>
+                    <textarea class="cajatexto" id="msg" name="user_message" placeholder="Mensaje"></textarea>
+                </li>
+                <li>
+                    <button type="button" onclick="f_enviar()">Enviar</button>
+                </li>
+            </ul>
+        </form>
+        <script>
+            function f_enviar() {
+                location.reload();
+                alert("Enviado");
+            }
+        </script>
+    </main>
+</body>
+
+</html>
