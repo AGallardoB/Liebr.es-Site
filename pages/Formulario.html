@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CSS Ana-->
@@ -83,42 +84,21 @@
             margin-left: 25%;
                 
         }
+        
     </style>
+    <!-- Por que insistis todos en poner CSS interno? -->
 </head>
 
 <body>
-    <header>
-    <!--CODIGO EXPORTADO DE GIT-->
-        <nav>
-            <div class="menu_y_redes_sociales">
-                <a href="#">Tienda Online</a>
-                <a href="#">Empleo</a>
-                <a href="#">Voluntariado</a>
-                <a href="#">Actualidad</a>
-                <a href="#">Contacta</a>
-                <a href="#"><img src="/img/facebook.png"></img></a>
-                <a href="#"><img src="/img/twitter.png"></img></a>
-                <a href="#"><img src="/img/youtube.png"></img></a>
-                <a href="#"><img src="/img/instagram.png"></img></a>
-                <a href="#"><img src="/img/linkedin.png"></img></a>
-            </div>
-
-            <div class="navegacion_y_busqueda">
-                <div class="nav_izquierda">
-                    <a href="#"><img src="/img/oxfamlogo.png"></img></a>
-                    <a href="#">QUÉ HACEMOS</a>
-                    <a href="#">QUIÉNES SOMOS</a>
-                    <a href="#">CÓMO PUEDES COLABORAR</a>
-                </div>
-                <div class="nav_derecha">
-                    <a href="#"><img src="/img/lupa.png"></img></a>
-                    <a href="#"><img src="/img/usuario.png"></img></a>
-                    <a class="donativo" href="#">HAZ UN DONATIVO</a>
-                </div>
-            </div>
-            <nav>
-    <!--FIN CODIGO-->
-    </header>
+    <!--Frankenstein de menú-->
+    <div id="nav-placeholder">
+    </div>
+    <script>
+        $.get("https://agallardob.github.io/RepositorioSGI/pages/nav.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <!--fin frankenstain-->
 
     <main>
         <div class="sup1">
