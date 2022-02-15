@@ -134,10 +134,10 @@
         .fa {
             padding: 5px;
             font-size: 10px;
-            width: 10px;
+            width: 15px;
             text-align: center;
             text-decoration: none;
-            margin: 5px 2px;
+            margin: -3px;
             border-radius: 50%;
             border: 0.1px;
             border-style: solid;
@@ -177,14 +177,16 @@
         .navegacion {
             display: flex;
             flex-direction: row;
+            text-align: center;
         }
 
         .navegacion li a {
-            background-color: rgb(127, 255, 212);
+            background-color: rgb(80, 75, 10);
             color: #fff;
             display: block;
             list-style-type: none;
             text-decoration: none;
+            padding: 5px;
         }
 
         .navegacion li ul {
@@ -207,6 +209,11 @@
 
         .navegacion li:hover>ul {
             display: block;
+        }
+
+        .donar {
+            background-color: rgb(90, 75, 15);
+            font-size: 15px;
         }
     </style>
 </head>
@@ -295,20 +302,20 @@
                     </ul>
                 </li>
             </div>
-            <div class="busqueda">
-                <form action="">
-                    <i class="icon">search</i>
-                    <input type="search" id="busq" name="busq">
-                </form>
-                <i class="icon"><a href="">person_pin</a></i>
-                <form action="">
-                    <select class="idioma" id="idioma" name="idioma" size="2">
-                        <option class="#" value="esp">ES</option>
-                        <option class="#" value="catalan">CA</option>
-                    </select>
-                </form>
-                <a href=""></a><button type="button">HAZ UN DONATIVO</button></a>
-            </div>
+
+            <form action="">
+                <i class="icon">search</i>
+                <input type="search" id="busq" name="busq">
+            </form>
+            <i class="icon"><a href="">person_pin</a></i>
+            <form action="">
+                <select class="idioma" id="idioma" name="idioma" size="2">
+                    <option class="#" value="esp">ES</option>
+                    <option class="#" value="catalan">CA</option>
+                </select>
+            </form>
+            <a href=""></a><button type="button" class="donar">HAZ UN DONATIVO</button></a>
+
         </div>
     </nav>
 </body>
