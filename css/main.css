@@ -297,3 +297,9 @@ nav{
 .pobreza{
     font-family: SFBlack;
 }
+     .buttonJs{
+            height: 30px;
+            width: 200px;
+            margin-left: 25%;
+                
+        }
