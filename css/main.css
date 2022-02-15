@@ -137,7 +137,11 @@ nav{
 .imagen_con_cabezera{
 	width:100%;
 	height:64vh;
+	display: flex;
 	background-color: #889988;
+	background-image:url(https://github.com/AGallardoB/RepositorioSGI/blob/main/img/Imagen_principal.PNG?raw=true);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .titulo_centrado{
